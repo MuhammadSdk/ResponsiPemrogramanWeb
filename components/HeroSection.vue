@@ -17,9 +17,9 @@
                       <h5 :style="{ color: 'green' }">SIDIK!</h5>
                       <p class="text-secondary mb-1">Mahasiswa</p>
                       <p class="text-muted font-size-sm">Universitas Amikom Yogyakarta</p>
-                      <button class="btn btn-primary">Ikuti</button>
+                      <button class="btn btn-success ">Ikuti</button> 
                       <!-- <button class="btn btn-outline-primary" href="">Message</button> -->
-                      <a href="mailto:latuconsinamsidik@students.amikom.ac.id" class="btn btn-outline-primary">Pesan</a>
+                      <a href="mailto:latuconsinamsidik@students.amikom.ac.id" class="btn btn-outline-warning">Pesan</a>
                     </div>
                   </div>
                 </div>
@@ -54,7 +54,7 @@
                 <div class="card-body">
                   <div class="row">
                     <div class="col-sm-3">
-                      <h6 class="mb-0">Nama Lengkap</h6>
+                      <h6 class="mb-0" style="color: green;">Nama Lengkap</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
                       Muhammad Sidik Latuconsina
@@ -63,7 +63,7 @@
                   <hr>
                   <div class="row">
                     <div class="col-sm-3">
-                      <h6 class="mb-0">Email</h6>
+                      <h6 class="mb-0" style="color: green;">Email</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
                       latuconsinamsidik@students.ac.id
@@ -72,7 +72,7 @@
                   <hr>
                   <div class="row">
                     <div class="col-sm-3">
-                      <h6 class="mb-0">Kontak</h6>
+                      <h6 class="mb-0" style="color: green;">Kontak</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
                       (+62) 821-9824-0897
@@ -82,7 +82,7 @@
                   <div class="row">
                     <div class="col-sm-3">
                      
-                      <h6 class="mb-0">Alamat</h6>
+                      <h6 class="mb-0" style="color: green;">Alamat</h6>
                     </div>
                     <div class="col-sm-9 text-secondary">
                       Daerah Istimewa Yogyakarta
@@ -98,7 +98,7 @@
                 <div class="col-sm-6 mb-3">
                   <div class="card h-100">
                     <div class="card-body">
-                      <h6 class="d-flex align-items-center mb-3">Project Status</h6>
+                      <h6 class="d-flex align-items-center- mb-3" style="color: green;">Project Status</h6>
                       <small>Web Design</small>
                       <div class="progress mb-3" style="height: 5px">
                         <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
@@ -125,7 +125,7 @@
                 <div class="col-sm-6 mb-3">
                   <div class="card h-100">
                     <div class="card-body">
-                      <h6 class="d-flex align-items-center mb-3">Project Status</h6>
+                      <h6 class="d-flex align-items-center mb-3" style="color: green;">Project Status</h6>
                       <small>Web Design</small>
                       <div class="progress mb-3" style="height: 5px">
                         <div class="progress-bar bg-primary" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
@@ -171,6 +171,7 @@ export default {
 .hero {
   text-align: center;
   padding: 100px 0;
-  background: #c7c6c6;
+  background-image: url('@/assets/f21bc06e3804bf1d7d75cf9dc425971f.jpg');
 }
+
 </style>

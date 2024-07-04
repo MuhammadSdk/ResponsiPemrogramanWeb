@@ -1,6 +1,8 @@
 <template>
   <div>
+    <Navbar />
     <HeroSection />
+    <footer/>
   </div>
 </template>
 
