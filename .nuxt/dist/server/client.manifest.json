@@ -1,0 +1,18 @@
+{
+  "@vite/client": {
+    "prefetch": true,
+    "isEntry": true,
+    "file": "@vite/client",
+    "css": [],
+    "module": true,
+    "resourceType": "script"
+  },
+  "D:/1KULIAH/AMIKOM/SEMESTER 4/PEMEROGRAMAN WEB/responsi coba/nuxt-individu-main/node_modules/nuxt/dist/app/entry.js": {
+    "resourceType": "script",
+    "module": true,
+    "prefetch": true,
+    "preload": true,
+    "isEntry": true,
+    "file": "D:/1KULIAH/AMIKOM/SEMESTER 4/PEMEROGRAMAN WEB/responsi coba/nuxt-individu-main/node_modules/nuxt/dist/app/entry.js"
+  }
+}
